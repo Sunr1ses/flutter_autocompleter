@@ -336,6 +336,9 @@ class _AutocompleterState<T> extends State<Autocompleter<T>>
                 clipBehavior: widget.clipBehavior,
                 margin:
                     widget.margin != null ? widget.margin!(direction) : null,
+                constraints: widget.maxHeight != null
+                    ? BoxConstraints(maxHeight: widget.maxHeight!)
+                    : null,
                 decoration: widget.decorationBuilder != null
                     ? widget.decorationBuilder!(direction)
                     : BoxDecoration(

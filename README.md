@@ -1,13 +1,13 @@
 # Flutter Autocompleter
 
-A customizable autocomplete widget for text field
+A customizable autocomplete widget for text field for Flutter
 
 ## Features
 * Supports TextField, CupertinoTextField, TextFormField and even your own custom text field widget
 * Customizes list item, padding, margin and decoration
 * Customizes content for loading, empty and error state
 * Installs hook before and after the suggestion callback
-* Sets debounce period when listening text changes
+* Sets debounce duration when listening text changes
 * Auto-flip when the list is outside the viewport
 
 ## Example
